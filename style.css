@@ -1,20 +1,53 @@
-/* style.css */
-body {
-  background: #00b3e6; /* Set background color to light blue */
+/* CSS for header */
+header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
 }
 
-div {
-  width: 700px;
-  margin: auto;
-  font-family: "Helvetica Neue";
-  background: white;
-  padding: 30px;
+header h1 {
+  margin: 0;
 }
 
-#main-header {
-  font-size: 22px;
+header nav {
+  text-align: center;
 }
 
-.perspective-questions {
-  font-style: italic;
+header nav a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: grey;
+  color: white;
+}
+
+
+/* CSS for featured property section */
+#featured-property {
+  text-align: center;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+#featured-property figcaption {
+  font-size: 14px;
+}
+
+
+/* CSS for details section */
+#details {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+#details div {
+  text-align: center;
+  width: 25%;
+  margin: 10px;
 }
